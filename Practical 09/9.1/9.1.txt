@@ -1,0 +1,13 @@
+Practical 9 — Task 9.1
+Display columns with aliases
+
+SQL executed:
+SELECT name AS student_name, marks AS score FROM exam_result;
+
+Output:
+student_name | score
+-------------+------
+Asha | 92
+Rohan | 47
+Neha | 68
+Meera | 33

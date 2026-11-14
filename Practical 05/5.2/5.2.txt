@@ -1,0 +1,10 @@
+Practical 5 — Task 5.2
+Titles ending with C
+
+SQL executed:
+SELECT title FROM book WHERE title LIKE '%C';
+
+Output:
+title
+-----
+Data Structures in C

@@ -1,0 +1,10 @@
+Practical 13 — Task 13.2
+Find common names using INTERSECT
+
+SQL executed:
+SELECT student_name FROM club_a INTERSECT SELECT student_name FROM club_b ORDER BY student_name;
+
+Output:
+student_name
+------------
+Neha

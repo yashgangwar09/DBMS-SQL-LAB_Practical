@@ -1,0 +1,11 @@
+Practical 4 — Task 4.2
+Players with runs between 40 and 80
+
+SQL executed:
+SELECT name, runs FROM player WHERE runs BETWEEN 40 AND 80;
+
+Output:
+name | runs
+-----+-----
+Asha | 45
+Meera | 72

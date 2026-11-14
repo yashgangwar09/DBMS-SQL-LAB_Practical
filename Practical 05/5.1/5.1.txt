@@ -1,0 +1,11 @@
+Practical 5 — Task 5.1
+Titles starting with Data
+
+SQL executed:
+SELECT title FROM book WHERE title LIKE 'Data%';
+
+Output:
+title
+-----
+Database Systems
+Data Structures in C

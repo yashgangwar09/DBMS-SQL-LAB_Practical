@@ -1,0 +1,10 @@
+Practical 7 — Task 7.2
+Calculate total sales amount
+
+SQL executed:
+SELECT SUM(amount) AS total FROM sales;
+
+Output:
+total
+-----
+41000

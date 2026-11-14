@@ -1,0 +1,12 @@
+Practical 3 — Task 3.2
+Show students scoring above 60
+
+SQL executed:
+SELECT * FROM student WHERE marks > 60;
+
+Output:
+roll_no | name | marks
+--------+------+------
+101 | Asha | 78
+102 | Rohan | 64
+103 | Neha | 88

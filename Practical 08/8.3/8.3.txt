@@ -1,0 +1,10 @@
+Practical 8 — Task 8.3
+Show regions with total above 20000
+
+SQL executed:
+SELECT region, SUM(amount) AS total FROM shop_sale GROUP BY region HAVING SUM(amount) > 20000 ORDER BY region;
+
+Output:
+region | total
+-------+------
+North | 23000

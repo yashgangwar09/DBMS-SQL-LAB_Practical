@@ -1,0 +1,11 @@
+Practical 8 — Task 8.2
+Calculate total amount per region
+
+SQL executed:
+SELECT region, SUM(amount) AS total FROM shop_sale GROUP BY region ORDER BY region;
+
+Output:
+region | total
+-------+------
+North | 23000
+South | 18000

@@ -1,0 +1,15 @@
+Practical 13 — Task 13.3
+Combine all names including repeats
+
+SQL executed:
+SELECT student_name FROM club_a UNION ALL SELECT student_name FROM club_b ORDER BY student_name;
+
+Output:
+student_name
+------------
+Asha
+Meera
+Neha
+Neha
+Pooja
+Rohan

@@ -1,0 +1,10 @@
+Practical 12 — Task 12.1
+Find names present in both clubs
+
+SQL executed:
+SELECT student_name FROM club_a WHERE student_name IN (SELECT student_name FROM club_b);
+
+Output:
+student_name
+------------
+Neha

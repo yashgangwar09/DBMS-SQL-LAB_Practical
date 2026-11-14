@@ -1,0 +1,10 @@
+Practical 15 — Task 15.1
+Create index on city
+
+SQL executed:
+CREATE INDEX idx_city ON customer(city);
+
+Output:
+Statement executed successfully.
+
+Status: Index idx_city created successfully.

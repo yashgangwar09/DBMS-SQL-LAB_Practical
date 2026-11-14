@@ -1,0 +1,10 @@
+Practical 5 — Task 5.3
+Titles with h as second letter
+
+SQL executed:
+SELECT title FROM book WHERE title LIKE '_h%';
+
+Output:
+title
+-----
+Short Stories

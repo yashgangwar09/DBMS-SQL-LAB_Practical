@@ -1,0 +1,11 @@
+Practical 4 — Task 4.3
+Players from Tigers or Lions
+
+SQL executed:
+SELECT name, team FROM player WHERE team IN ('Tigers', 'Lions');
+
+Output:
+name | team
+-----+-----
+Meera | Tigers
+Kiran | Lions

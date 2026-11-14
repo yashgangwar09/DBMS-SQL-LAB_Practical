@@ -1,0 +1,13 @@
+Practical 1 — Task 1.2
+Insert three student rows
+
+SQL executed:
+INSERT INTO student (roll_no, name, marks) VALUES (101, 'Asha', 78), (102, 'Rohan', 64), (103, 'Neha', 88);
+
+Output:
+3 row(s) affected.
+
+Status: 3 rows inserted successfully.
+SQL query successfully executed. However, the result set is empty.
+
+

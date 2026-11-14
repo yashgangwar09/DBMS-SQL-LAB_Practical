@@ -1,0 +1,11 @@
+Practical 8 — Task 8.1
+Count sales in each region
+
+SQL executed:
+SELECT region, COUNT(*) AS num_sales FROM shop_sale GROUP BY region ORDER BY region;
+
+Output:
+region | num_sales
+-------+----------
+North | 2
+South | 2

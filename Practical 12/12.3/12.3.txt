@@ -1,0 +1,12 @@
+Practical 12 — Task 12.3
+List names in club A alphabetically
+
+SQL executed:
+SELECT student_name FROM club_a ORDER BY student_name;
+
+Output:
+student_name
+------------
+Asha
+Neha
+Rohan

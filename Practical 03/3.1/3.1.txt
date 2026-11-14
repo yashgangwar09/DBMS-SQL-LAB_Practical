@@ -1,0 +1,13 @@
+Practical 3 — Task 3.1
+Show student names and marks
+
+SQL executed:
+SELECT name, marks FROM student;
+
+Output:
+name | marks
+-----+------
+Asha | 78
+Rohan | 64
+Neha | 88
+Deepak | 52

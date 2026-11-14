@@ -1,0 +1,13 @@
+Practical 10 — Task 10.1
+Show employee and department names
+
+SQL executed:
+SELECT employee.emp_name, department.dept_name FROM employee INNER JOIN department ON employee.dept_id = department.dept_id ORDER BY employee.emp_name;
+
+Output:
+emp_name | dept_name
+---------+----------
+Anita | Accounts
+Deepak | Accounts
+Lata | Sales
+Pooja | Sales

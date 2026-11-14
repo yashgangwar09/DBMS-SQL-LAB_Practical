@@ -1,0 +1,12 @@
+Practical 6 — Task 6.2
+List each category once
+
+SQL executed:
+SELECT DISTINCT category FROM product ORDER BY category;
+
+Output:
+category
+--------
+Electronics
+Office
+Stationery

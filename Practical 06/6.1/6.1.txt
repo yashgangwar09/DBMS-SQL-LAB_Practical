@@ -1,0 +1,13 @@
+Practical 6 — Task 6.1
+Sort products by price descending
+
+SQL executed:
+SELECT product_name, price FROM product ORDER BY price DESC;
+
+Output:
+product_name | price
+-------------+------
+Calculator | 850
+Bag | 500
+Notebook | 60
+Pen | 15

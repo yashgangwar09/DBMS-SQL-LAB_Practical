@@ -1,0 +1,10 @@
+Practical 7 — Task 7.1
+Count sales rows
+
+SQL executed:
+SELECT COUNT(*) AS num_sales FROM sales;
+
+Output:
+num_sales
+---------
+4

@@ -1,0 +1,15 @@
+Practical 15 — Task 15.3
+Insert customer Arjun
+
+SQL executed:
+INSERT INTO customer (customer_id, name, city) VALUES (5, 'Arjun', 'Pune');
+SELECT * FROM customer ORDER BY customer_id;
+
+Output:
+customer_id | name | city
+------------+------+-----
+1 | Kiran | Kochi
+2 | Deepak | Delhi
+3 | Lata | Mumbai
+4 | Asha | Delhi
+5 | Arjun | Pune

@@ -1,0 +1,10 @@
+Practical 12 — Task 12.2
+Count members in club B
+
+SQL executed:
+SELECT COUNT(*) AS members FROM club_b;
+
+Output:
+members
+-------
+3

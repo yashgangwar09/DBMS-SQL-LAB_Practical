@@ -1,0 +1,13 @@
+Practical 9 — Task 9.2
+Display Pass or Fail using CASE
+
+SQL executed:
+SELECT name, CASE WHEN marks >= 40 THEN 'Pass' ELSE 'Fail' END AS result FROM exam_result;
+
+Output:
+name | result
+-----+-------
+Asha | Pass
+Rohan | Pass
+Neha | Pass
+Meera | Fail

@@ -1,0 +1,11 @@
+Practical 15 — Task 15.2
+Find customers living in Delhi
+
+SQL executed:
+SELECT name FROM customer WHERE city = 'Delhi' ORDER BY name;
+
+Output:
+name
+----
+Asha
+Deepak

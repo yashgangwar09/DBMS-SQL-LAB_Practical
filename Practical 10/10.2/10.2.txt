@@ -1,0 +1,11 @@
+Practical 10 — Task 10.2
+Show employees in Sales department
+
+SQL executed:
+SELECT employee.emp_name FROM employee INNER JOIN department ON employee.dept_id = department.dept_id WHERE department.dept_name = 'Sales' ORDER BY employee.emp_name;
+
+Output:
+emp_name
+--------
+Lata
+Pooja

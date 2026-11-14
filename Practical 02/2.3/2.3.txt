@@ -1,0 +1,12 @@
+Practical 2 — Task 2.3
+Delete item 3
+
+SQL executed:
+DELETE FROM stock WHERE item_code = 3;
+SELECT * FROM stock;
+
+Output:
+item_code | item_name | quantity
+----------+-----------+---------
+1 | Notebook | 80
+2 | Pen | 130

@@ -1,0 +1,14 @@
+Practical 13 — Task 13.1
+Combine names once using UNION
+
+SQL executed:
+SELECT student_name FROM club_a UNION SELECT student_name FROM club_b ORDER BY student_name;
+
+Output:
+student_name
+------------
+Asha
+Meera
+Neha
+Pooja
+Rohan

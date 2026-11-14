@@ -1,0 +1,11 @@
+Practical 1 — Task 1.1
+Create the student table
+
+
+
+CREATE TABLE student (roll_no INTEGER, name VARCHAR(30), marks INTEGER);
+
+Output:
+Statement executed successfully.
+
+Status: Table created successfully.

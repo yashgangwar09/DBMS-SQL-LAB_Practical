@@ -1,0 +1,12 @@
+Practical 1 — Task 1.3
+Display all student records
+
+SQL executed:
+SELECT * FROM student;
+
+Output:
+roll_no | name | marks
+--------+------+------
+101 | Asha | 78
+102 | Rohan | 64
+103 | Neha | 88

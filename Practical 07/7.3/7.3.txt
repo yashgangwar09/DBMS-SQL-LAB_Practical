@@ -1,0 +1,10 @@
+Practical 7 — Task 7.3
+Find highest sales amount
+
+SQL executed:
+SELECT MAX(amount) AS highest FROM sales;
+
+Output:
+highest
+-------
+12000

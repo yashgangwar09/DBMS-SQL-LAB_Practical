@@ -1,0 +1,11 @@
+Practical 6 — Task 6.3
+Show two most expensive products
+
+SQL executed:
+SELECT product_name, price FROM product ORDER BY price DESC LIMIT 2;
+
+Output:
+product_name | price
+-------------+------
+Calculator | 850
+Bag | 500

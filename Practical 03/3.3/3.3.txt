@@ -1,0 +1,10 @@
+Practical 3 — Task 3.3
+Find student with roll number 103
+
+SQL executed:
+SELECT name FROM student WHERE roll_no = 103;
+
+Output:
+name
+----
+Neha

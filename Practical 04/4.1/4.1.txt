@@ -1,0 +1,10 @@
+Practical 4 — Task 4.1
+Eagles players scoring above 35
+
+SQL executed:
+SELECT name, runs FROM player WHERE team = 'Eagles' AND runs > 35;
+
+Output:
+name | runs
+-----+-----
+Asha | 45
